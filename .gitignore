@@ -16,7 +16,7 @@ build/
 # GitHub Pages (Jenkins Deployment)
 .DS_Store
 .env
-coverage/
+coverage/ 
 
 # Editor/IDE files
 .vscode/
