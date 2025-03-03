@@ -15,4 +15,4 @@ services:
       - JAVA_OPTS=-Djenkins.install.runSetupWizard=false
 
 volumes:
-  jenkins_home:
+  jenkins_home: 
