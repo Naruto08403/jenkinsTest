@@ -22,7 +22,7 @@ coverage/
 .vscode/
 .idea/ 
 *.swp
-
+ 
 # Jenkins-specific files
 .jenkins/ 
 workspace/ 
