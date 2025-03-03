@@ -14,4 +14,5 @@ function calculate() {
 // Export for unit testing
 if (typeof module !== "undefined") { 
     module.exports = add;
+    module.exports = subtract;
 }
