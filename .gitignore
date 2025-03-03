@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Logs
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+dist/
+build/
+
+# GitHub Pages (Jenkins Deployment)
+.DS_Store
+.env
+coverage/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+
+# Jenkins-specific files
+.jenkins/
+workspace/
