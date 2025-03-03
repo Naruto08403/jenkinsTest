@@ -3,7 +3,7 @@ function add(a, b) {
 }
 
 function subtract(a,b){
-    return a-b
+    return a-b;
 }
 function calculate() {
     const num1 = parseFloat(document.getElementById("num1").value);
