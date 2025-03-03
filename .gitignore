@@ -20,7 +20,7 @@ coverage/
 
 # Editor/IDE files
 .vscode/
-.idea/ 
+.idea/  
 *.swp
  
 # Jenkins-specific files
