@@ -3,20 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CI/CD Demo</title>
+    <title>Simple Calculator</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 50px;
         }
-        h1 {
+        h2 {
             color: #007bff; 
         }
     </style>
 </head>  
+</head>
 <body>
-    <h1>Hello CI/CD! TESTED</h1> 
-    <!-- <p>This is a simple CI/CD demo webpage.</p> -->
+    <h2>Simple Calculator</h2>
+    <input type="number" id="num1" placeholder="Enter first number for me">
+    <input type="number" id="num2" placeholder="Enter second number for you">
+    <button onclick="calculate()">Add</button>
+    <p>Result: <span id="result">0</span></p>
+
+    <script src="script.js"></script> 
 </body>
 </html>
