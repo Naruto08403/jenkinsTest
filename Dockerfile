@@ -1,17 +1,14 @@
-# Use official Node.js image
-FROM node:18
+# Use the official Nginx image
+FROM nginx:alpine
 
-# Set working directory
-WORKDIR /app
+# Remove default Nginx web files
+RUN rm -rf /usr/share/nginx/html/*
 
-# Copy app files
-COPY . .
+# Copy your calculator app to the Nginx web directory
+COPY . /usr/share/nginx/html
 
-# Install dependencies
-RUN npm install
+# Expose port 80 for web traffic
+EXPOSE 8081
 
-# Expose port
-EXPOSE 3000
-
-# Start the application
-CMD ["node", "server.js"]
+# Start Nginx server
+CMD ["nginx", "-g", "daemon off;"]

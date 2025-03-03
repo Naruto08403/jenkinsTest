@@ -2,6 +2,9 @@ function add(a, b) {
     return a + b;
 }
 
+function subtract(a,b){
+    return a-b
+}
 function calculate() {
     const num1 = parseFloat(document.getElementById("num1").value);
     const num2 = parseFloat(document.getElementById("num2").value);
