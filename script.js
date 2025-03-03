@@ -16,5 +16,5 @@ if (typeof module !== "undefined") {
     module.exports = {
         add,
         subtract
-    }
+    };
 }
